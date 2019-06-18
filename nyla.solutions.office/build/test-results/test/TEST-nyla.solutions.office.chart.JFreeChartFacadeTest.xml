@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="nyla.solutions.office.chart.JFreeChartFacadeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-29T20:08:40" hostname="MacBook-Pro-5.local" time="1.785">
-  <properties/>
-  <testcase name="testGetBytes" classname="nyla.solutions.office.chart.JFreeChartFacadeTest" time="1.785"/>
-  <system-out><![CDATA[DEBUG: Write to /var/folders/ms/1b4dljzx4sddv7s6s4jqsh8h0000gn/T/test.png
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
