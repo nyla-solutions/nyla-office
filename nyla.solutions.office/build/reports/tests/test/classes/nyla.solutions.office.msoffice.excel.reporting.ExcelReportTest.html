@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class nyla.solutions.office.msoffice.excel.reporting.ExcelReportTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class nyla.solutions.office.msoffice.excel.reporting.ExcelReportTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/nyla.solutions.office.msoffice.excel.reporting.html">nyla.solutions.office.msoffice.excel.reporting</a> &gt; ExcelReportTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>nyla.solutions.core.exception.ConfigException: Configuration key &quot;jdbc.password&quot; must be encypted
+	at nyla.solutions.core.util.settings.AbstractSettings.getProperty(AbstractSettings.java:183)
+	at nyla.solutions.core.util.settings.AbstractSettings.getSecureProperty(AbstractSettings.java:684)
+	at nyla.solutions.core.util.settings.AbstractSettings.getPropertyPassword(AbstractSettings.java:646)
+	at nyla.solutions.core.util.Config.getPropertyPassword(Config.java:497)
+	at nyla.solutions.dao.DAO.&lt;init&gt;(DAO.java:2499)
+	at nyla.solutions.dao.DAO.&lt;init&gt;(DAO.java:131)
+	at nyla.solutions.dao.reporting.AbstractReport.&lt;init&gt;(AbstractReport.java:31)
+	at nyla.solutions.office.msoffice.excel.reporting.ExcelReport.&lt;init&gt;(ExcelReport.java:47)
+	at nyla.solutions.office.msoffice.excel.reporting.ExcelReportTest.&lt;init&gt;(ExcelReportTest.java:22)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at junit.framework.TestSuite.createTest(TestSuite.java:64)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.gradle.api.internal.tasks.testing.junit.IgnoredTestDescriptorProvider.getAllDescriptions(IgnoredTestDescriptorProvider.java:31)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestEventAdapter.processIgnoredClass(JUnitTestEventAdapter.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestEventAdapter.testIgnored(JUnitTestEventAdapter.java:95)
+	at org.junit.runner.notification.SynchronizedRunListener.testIgnored(SynchronizedRunListener.java:108)
+	at org.junit.runner.notification.RunNotifier$8.notifyListener(RunNotifier.java:209)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestIgnored(RunNotifier.java:206)
+	at org.junit.internal.builders.IgnoredClassRunner.run(IgnoredClassRunner.java:16)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR: nyla.solutions.core.exception.ConfigException: Configuration key &quot;jdbc.password&quot; must be encypted
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Apr 29, 2019, 4:08:42 PM</p>
+</div>
+</div>
+</body>
+</html>
