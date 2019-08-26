@@ -164,6 +164,8 @@ public class JFreeChartFacade implements Chart
 		 //default
 	    	jfreeChart = ChartFactory.createBarChart( title, categoryLabel, valueLabel, dataset, orientation, legend, tooltips, urls );
 	    }
+
+
 	    
 	    paintPlotSeries(jfreeChart);
 	    
